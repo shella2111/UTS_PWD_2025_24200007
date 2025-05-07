@@ -61,10 +61,6 @@ section {
     color: gray;
 }
 
-.review-list {
-
-}
-
 .review-list h2 {
     color: black;
 }
@@ -77,6 +73,13 @@ section {
 .review-list p {
     color: #0046be;
     background-color: #f6f8fb;
+}
+
+.review-list-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    margin-top: 35px;
 }
 
 .cta {
